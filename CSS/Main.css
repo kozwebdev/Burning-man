@@ -1,0 +1,62 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Anton', sans-serif;
+  color: black;
+  font-size: 16px;
+  text-emphasis: uppercase;
+}
+h1,h2,h3,h4,h5,h6 {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+ul,li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: green;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.header {
+  background: url("../img/header-bg.jpg") no-repeat center top;
+}
+.header a {
+  color: #fff;
+}
+.logo {
+  margin-right: 69px;
+}
+.menu {
+  display: flex;
+}
+.menu li {
+    margin: 0 40px 0 0;
+}
+.menu li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+.tel  {
+  font-size: 17px;
+  text-decoration: none;
+  margin-left: auto;
+  letter-spacing: 0.1em;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  padding-top: 57px;
+}
