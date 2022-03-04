@@ -146,11 +146,22 @@ h2{
     width: 1100px;
   }
 }
-@media screen  and (max-width:  767px) {
+@media screen  and (max-width:  991px) {
   #tte  {
     background-color: #f00;
     width: 667px;
   }
 }
-
+@media screen  and (max-width:  767px) {
+  #tte  {
+    background-color: #00f;
+    width: 667px;
+  }
+}
+@media screen  and (max-width:  575px) {
+  #tte  {
+    background-color: #fff;
+    width: 667px;
+  }
+}
 
