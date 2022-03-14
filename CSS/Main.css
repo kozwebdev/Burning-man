@@ -135,33 +135,44 @@ h2{
 .footer-text p {
   margin-right: 67px;
 }
-#tte {
-  width: 100px;
-  height: 200px;
-  position: relative;
+
+@media screen  and (max-width:  1200px) {
+  .container  {
+    width: 1140px;
+  }
 }
+
 @media screen  and (max-width:  1199px) {
-  #tte  {
-    background-color: #0f0;
-    width: 1100px;
+  .container  {
+    width: 960px;
+  }
+  .desc-left, .desc-right{
+    width:48%;
+  }
+  .gallery img:nth-child(1){
+    width:23%;      
+  }
+  .gallery img:nth-child(2){
+    width:23%;    
+  }
+  .gallery img:nth-child(3){
+    width:23%;  
   }
 }
 @media screen  and (max-width:  991px) {
-  #tte  {
-    background-color: #f00;
-    width: 667px;
+  .container  {
+    width: 720px;
   }
 }
 @media screen  and (max-width:  767px) {
-  #tte  {
-    background-color: #00f;
-    width: 667px;
+  .container  {
+    width: 540px;
   }
 }
 @media screen  and (max-width:  575px) {
-  #tte  {
-    background-color: #fff;
-    width: 667px;
+  .container  {
+    width: 100%;
+    padding: 0 15px;
   }
 }
 
