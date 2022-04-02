@@ -9,7 +9,8 @@ Male, 33 years, born on 18 October 1988
  Specializations:   
       Programmer, frontend developer
 ### About me  
-  I want to work as frontend developer. More preferable remote. 
+  I want to work as frontend developer. More preferable remote.  
+### skills
 ### Work experience 11 years  
 - July 2021 — currently 
   #### "stroydetal" LLP  
